@@ -1,3 +1,5 @@
+# Merge/Flatten array
+
 Use to merge nested array or multiple arrays:
 
 Sample array:

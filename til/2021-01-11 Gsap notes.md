@@ -1,4 +1,4 @@
-Fix scroll trigger on resize:
+# Fix scroll trigger on resize:
 
 ```jsx
   useEffect(() => {

@@ -1,4 +1,4 @@
-Preload images custom hooks
+# Preload images custom hooks
 
 ```ts
 export default function useImagePreloader(imageList: string[]) {

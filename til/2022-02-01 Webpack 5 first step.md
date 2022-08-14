@@ -1,6 +1,8 @@
+# Webpack 5 first step
+
 - By default (no webpack.config.js file), webpack build command will look for src/index.js file for bundling.
 - Basic config:
-_webpack.config.js_
+  _webpack.config.js_
 
 ```js
 const path = require('path')
@@ -19,16 +21,17 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'),
   }
   // loader
-  
+
 }
 ```
 
 - If we need to compile stylesheet file with preprocessor like scss, make it noticed to webpack by importing it to the entry point js file.
 
 _src/index.js_
+
 ```js
-import './style.scss';
-console.log('Hello world')
+import "./style.scss";
+console.log("Hello world");
 ```
 
 Notes: we need a **loader** to process the file because it is not javascript code.
@@ -60,12 +63,15 @@ module.exports = {
   }
 }
 ```
+
 - Hot reload: webpack-dev-server
+
 ```
 npm i -D webpack-dev-server
 ```
 
 _src/index.js_
+
 ```js
 module.exports = {
   ...
@@ -77,6 +83,7 @@ module.exports = {
 ```
 
 _package.json_
+
 ```json
   ...
   "scripts": {

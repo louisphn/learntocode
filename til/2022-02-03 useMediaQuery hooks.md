@@ -1,4 +1,4 @@
-Use media query custom hooks
+# Use media query custom hooks
 
 ```jsx
 import { useState, useEffect } from "react";

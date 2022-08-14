@@ -1,3 +1,5 @@
+# Cannot find module error fix
+
 ```
 Cannot find module X or its corresponding type declarations
 ```

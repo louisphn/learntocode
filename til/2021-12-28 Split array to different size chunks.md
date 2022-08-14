@@ -1,3 +1,5 @@
+# Split array to different size chunks
+
 Sample array (from 1 to 20):
 
 ```js
