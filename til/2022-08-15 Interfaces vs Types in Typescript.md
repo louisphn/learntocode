@@ -4,13 +4,11 @@ Reference: https://stackoverflow.com/questions/37233735/interfaces-vs-types-in-t
 
 ### Table of Contents
 
-1. [Objects / Functions](#object-functions)
-2. [Other Types](#other-types)
-3. [Extend](#extend)
-4. [Implements](#implements)
-5. [Declaration merging](#declaration-merging)
-
-<a name="objects-functions"></a>
+- [1. Objects / Functions](#1-objects--functions)
+- [2. Other Types](#2-other-types)
+- [3. Extend](#3-extend)
+- [4. Implements](#4-implements)
+- [5. Declaration merging](#5-declaration-merging)
 
 #### 1. Objects / Functions
 
@@ -61,8 +59,6 @@ type PartialPoint = PartialPointX | PartialPointY;
 type Data = [number, string];
 ```
 
-<a name="extend"></a>
-
 #### 3. Extend
 
 Both can be extended, but again, the syntax differs. Additionally, note that an interface and type alias are not mutually exclusive. An interface can extend a type alias, and vice versa.
@@ -103,8 +99,6 @@ interface PartialPointX {
 type Point = PartialPointX & { y: number };
 ```
 
-<a name="implements"></a>
-
 #### 4. Implements
 
 A class can implement an interface or type alias, both in the same exact way. Note however that a class and interface are considered static blueprints. Therefore, they can not implement / extend a type alias that names a union type.
@@ -138,8 +132,6 @@ class SomePartialPoint implements PartialPoint {
   y = 2;
 }
 ```
-
-<a name="declaration-merging"></a>
 
 #### 5. Declaration merging
 
