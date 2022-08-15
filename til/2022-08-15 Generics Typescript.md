@@ -1,6 +1,9 @@
 # Generics Typescript
 
-- Reference: https://javascript.plainenglish.io/typescript-generics-whats-with-the-angle-brackets-4e242c567269
+- Reference:
+
+  1. https://javascript.plainenglish.io/typescript-generics-whats-with-the-angle-brackets-4e242c567269
+  2. https://stackoverflow.com/questions/48337555/confusion-about-angle-brackets-in-typescript
 
 - A way to make type reusable, without having to specify the type of the generic. (dynamic type)
 
